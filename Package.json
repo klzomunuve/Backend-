@@ -1,6 +1,0 @@
-{
-  "name": "alfred-proxy",
-  "scripts": {
-    "start": "cd .. && npm start"
-  }
-}
