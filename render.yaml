@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: alfred-bot-backend
+    env: node
+    rootDir: .
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    envVars:
+      - key: PORT
+        value: 4000
+      - key: API_KEY
+        value: your-secret-key
